@@ -7,6 +7,16 @@ return {
           hidden = true,
           ignored = true,
         },
+        files = {
+          hidden = true,
+          ignored = true,
+          exclude = { "node_modules" },
+        },
+        grep = {
+          hidden = true,
+          ignored = true,
+          exclude = { "node_modules" },
+        },
       },
     },
   },
